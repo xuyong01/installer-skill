@@ -47,4 +47,3 @@ Claude Code 会使用同样的参数，但把 `--agent codex` 换成 `--agent cl
 # 推送本地 main 分支到 xuyong01/installer-skill，让 Raw URL 可以访问最新 installer.skill.md 和 README.md
 git push origin main
 ```
-
