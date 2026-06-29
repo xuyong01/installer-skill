@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/xuyong01/installer-skill/main/installer.skill.
 把下面这句话发给 Codex 或 Claude Code：
 
 ```text
-请阅读 https://raw.githubusercontent.com/xuyong01/installer-skill/main/installer.skill.md，然后帮我安装 @clink-bot-skills/simulate-clink-order
+请阅读 https://raw.githubusercontent.com/xuyong01/installer-skill/main/installer.skill.md，然后帮我安装 @namespace/skill-slug
 ```
 
 Agent 会读取 `installer.skill.md`，把 `@namespace/skill-slug` 转成当前
