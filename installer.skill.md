@@ -2,6 +2,7 @@
 name: skillhub-installer
 description: Install any requested SkillHub registry skill from https://skillhub.clinkpay.team into Codex or Claude Code when the user asks to install a SkillHub skill coordinate.
 
+
 ---
 
 # SkillHub Installer
@@ -41,10 +42,10 @@ Choose the install target from the runtime you are operating in:
 - In Codex, use `--agent codex`.
 - In Claude Code, use `--agent claude-code`.
 
-Use project scope:
+Use user scope so the installed skill remains available after Codex restarts:
 
 ```text
---scope project
+--scope user
 ```
 
 ## Install
@@ -62,7 +63,7 @@ Replace every placeholder before execution. Never run a command that still conta
 Run:
 
 ```bash
-npx @astron-team/skillhub@latest install <skill-args> --agent <agent-profile> --scope project --registry https://skillhub.clinkpay.team --json
+npx @astron-team/skillhub@latest install <skill-args> --agent <agent-profile> --scope user --registry https://skillhub.clinkpay.team --json
 ```
 
 After the command finishes, summarize whether the install succeeded and include the installed directory from the JSON output when available.
